@@ -1,0 +1,17 @@
+# Vault data - NEVER commit
+vault.db
+*.db
+*.db-journal
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+*.egg-info/
+.coverage
+htmlcov/
